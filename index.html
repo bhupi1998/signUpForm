@@ -24,26 +24,40 @@
             <p>You know what to do</p>
         </div>
         <form>
-            <p>Let's do this!</p>
             <fieldset id="basicInfo">
-                <label for="firstName">First Name</label>
-                <input type="text" name="firstName" id="firstName">
-                <label for="lastName">Last Name</label>
-                <input type="text" name="lastName" id="lastName">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" required>
-                <label for="phone">Phone Number</label>
-                <input type="tel" name="phone" id="phone" pattern="[1-9]+">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">
-                <label for="passwordConfirm">Confirm Password</label>
-                <input type="password" name="passwordConfirm" id="passwordConfirm">
+                <p>Let's do this!</p>
+                <ul>
+                    <li>
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" name="firstName" id="firstName">
+                    </li>
+                    <li>
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" name="lastName" id="lastName">
+                    </li>
+                    <li>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </li>
+                    <li>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" name="phone" id="phone">
+                    </li>
+                    <li>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password">
+                    </li>
+                    <li>
+                        <label for="passwordConfirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="passwordConfirm" id="passwordConfirm">
+                    </li>
+                </ul>
             </fieldset>
             <button type="submit">Create Account</button>
+            <div>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
         </form>
-        <div>
-            <p>Already have an account? <a href="">Log in</a></p>
-        </div>
     </div>
 </body>
 </html>
