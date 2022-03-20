@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>SignUp</title>
 </head>
 <body> 
@@ -45,11 +45,12 @@
                     </li>
                     <li>
                         <label for="password">PASSWORD</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" class="error">
+                        <p id="passwordNoMatch">Passwords do not match</p>
                     </li>
                     <li>
                         <label for="passwordConfirm">CONFIRM PASSWORD</label>
-                        <input type="password" name="passwordConfirm" id="passwordConfirm">
+                        <input type="password" name="passwordConfirm" id="passwordConfirm" class="error">
                     </li>
                 </ul>
             </fieldset>
